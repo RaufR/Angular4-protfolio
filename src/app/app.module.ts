@@ -4,10 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ComponentsComponent } from './src/app/components/components.component';
+import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/about/about.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { ProtfolioComponent } from './components/protfolio/protfolio.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComponentsComponent,
+    AboutComponent,
+    AboutComponent,
+    AboutComponent,
+    FooterComponent,
+    MenuComponent,
+    ProtfolioComponent
   ],
   imports: [
     BrowserModule,
