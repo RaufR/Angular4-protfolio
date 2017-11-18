@@ -7,15 +7,15 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ProtfolioComponent } from './components/protfolio/protfolio.component';
+import { AboutComponent } from 'app/components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent,
-    AboutComponent,
     FooterComponent,
     MenuComponent,
-    ProtfolioComponent
+    ProtfolioComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
